@@ -1,4 +1,16 @@
 module.exports = {
+  modules: [
+    '@nuxtjs/vuetify',
+    '@nuxtjs/font-awesome'
+  ],
+  vuetify: {
+    theme: {
+      primary: '#3f51b5',
+      secondary: '#b0bec5',
+      accent: '#8c9eff',
+      error: '#b71c1c'
+    }
+  },
   /*
   ** Headers of the page
   */
